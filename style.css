@@ -1,99 +1,92 @@
-/*******************
-
-COMMON
-
-*******************/
+/*********************
+ * COMMON 
+*********************/
 
 body {
-    font-family: "monospace",sans-serif;
+  font-family: "monospace", sans-serif;
 }
 
-.font-primary{
-    color : #00ABAE;
+.font-primary {
+  color: #00abae;
 }
 
-.title-icon{
-    font-size: 20px;
-    font-weight: bold;
+.title-icon {
+  font-size: 20px;
+  font-weight: bold;
 }
 
-p{
-    font-size: 14px;
+p {
+  font-size: 14px;
 }
 
-h2{
-    font-weight: bold;
-    font-size: 23px;
-    margin-bottom: 20px;
+h2 {
+  font-weight: bold;
+  font-size: 23px;
+  margin-bottom: 20px;
 }
 
-a.font-black{
-    color: black !important;
+a.font-black {
+  color: #000 !important;
 }
-/*****************
 
-ABOUT
-
-******************/
+/*********************
+ * ABOUT
+*********************/
 
 #about {
-    margin: 60px auto;
-    max-width: 400px;
-    text-align: center;
+  margin: 60px auto;
+  max-width: 400px;
+  text-align: center;
 }
 
-#about img{
-    border-radius: 50%;
-    width: 120px;
-    margin-bottom: 10px;    
+#about img {
+  border-radius: 50%;
+  width: 120px;
+  margin-bottom: 10px;
 }
 
-#about .name{
-    font-size: 19px;
+#about .name {
+  font-size: 19px;
 }
 
-#about .vocation{
-    font-size: 17px;
-    color: #A8A8AB;
-    margin-bottom: 10px;
-}
-#about .skills{
-    font-size: 15px;
-    color: #00abae;
-    margin-bottom: 10px;
-}
-#about .email{
-    margin-top: 10px;
-    font-size: 15px;
-}
-#about .icons{
-    margin-top: 20px;
-    font-size: 30px;
+#about .vocation {
+  font-size: 17px;
+  color: #a8a8a8;
+  margin-bottom: 10px;
 }
 
-/*****************
-
-PROJECTS
-
-******************/
-
-#projects{
-    margin: 60px auto;
-    width: 800px;
-    text-align: center;
+#about .skills {
+  font-size: 14px;
+  color: #00abae;
+  margin-bottom: 10px;
 }
 
-#projects h2{
-    text-align: center;
-    font-weight: bold;
-    font-size: 25px;
-    margin-bottom: 40px;
+#about .email {
+  font-size: 14px;
 }
 
-#projects .card img{
-    width: 100%;
+#about .icons {
+  margin-top: 20px;
+  font-size: 30px;
+}
+
+#about .icons a {
+  color: #000;
+}
+
+/*********************
+ * PROJECTS 
+*********************/
+
+#projects {
+  margin: 60px auto;
+  width: 80%;
+}
+
+#projects h2 {
+  text-align: center;
 }
 
 #projects .card-title {
-    font-weight: bold;
+  font-weight: bold;
 }
