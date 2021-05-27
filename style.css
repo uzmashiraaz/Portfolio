@@ -2,16 +2,20 @@
  * COMMON 
 *********************/
 
+
 body {
   font-family: "monospace", sans-serif;
+  background-color: rgb(154, 204, 228);
+
 }
 
+
 .font-primary {
-  color: #00abae;
+  color: #feffff;
 }
 
 .title-icon {
-  font-size: 20px;
+  font-size: 30px;
   font-weight: bold;
 }
 
@@ -40,24 +44,24 @@ a.font-black {
 }
 
 #about img {
-  border-radius: 50%;
-  width: 120px;
+  border-radius: 2%;
+  width: 165px;
   margin-bottom: 10px;
 }
 
 #about .name {
-  font-size: 19px;
+  font-size: 26px;
 }
 
 #about .vocation {
-  font-size: 17px;
-  color: #a8a8a8;
+  font-size: 21px;
+  color: #161414;
   margin-bottom: 10px;
 }
 
 #about .skills {
-  font-size: 14px;
-  color: #00abae;
+  font-size: 18px;
+  color: #3d2153;
   margin-bottom: 10px;
 }
 
