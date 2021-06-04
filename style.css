@@ -4,15 +4,14 @@
 
 
 body {
-  font-family: "monospace", sans-serif;
   background-color: rgb(154, 204, 228);
-
+  font-family: "monospace", sans-serif;
 }
 
 
 .font-primary {
   color: #feffff;
-}
+  }
 
 .title-icon {
   font-size: 30px;
@@ -93,4 +92,9 @@ a.font-black {
 
 #projects .card-title {
   font-weight: bold;
+  background-color: rgb(154, 204, 228);
+}
+
+#projects .card{
+  background-color: rgb(154, 204, 228);
 }
